@@ -34,7 +34,7 @@ Fun fact 3 : ... git est sur git (oui oui). Ce qui signifie que nous pouvons lir
 
 Pour cette formation, nous n'utiliserons pas de GUI (Graphical User Interface). Nous utiliserons uniquement des commandes. Git est certes très puissant, il est aussi très délicat et il est facile de "casser" un projet si on ne sait pas ce qu'il se passe en arrière plan et très compliqué de réparer les dégâts. Un dernier point en faveur des commandes : elles sont les mêmes sur toutes les plateformes (Windows, Mac, Linux) et vous permettront de vous adapter à n'importe quel environnement.
 
-D'autre part, je déconseille l'utilisation spécifique de github desktop : étant directement relié à github, les comportements et fonctionnement rencontré dans ce logiciel ne sont pas forcément les mêmes que dans les commandes et peuvent être source de confusion très peu productive. Quoiqu'il en soit, n'utilisez AUCUN GUI avant d'avoir à minima terminer la formation [Basics](./Basics/README.md). Une fois ceci fait, vous pouvez utiliser des GUI comme gitKraken (toute plateforme), git fork (mac) ou lazygit (c'est un TUI, mais c'est pareil) qui sont très bien fait et vous permettront de gagner du temps une fois que vous aurez les bases. Si, comme moi, vous codez sous VS Code, vous pouvez également utiliser l'extension git intégrée à l'éditeur.
+D'autre part, je déconseille l'utilisation spécifique de github desktop : étant directement relié à github, les comportements et fonctionnement rencontré dans ce logiciel ne sont pas forcément les mêmes que dans les commandes et peuvent être source de confusion très peu productive. Quoiqu'il en soit, n'utilisez AUCUN GUI avant d'avoir à minima terminer la formation [Basics](./Basics/formation.md). Une fois ceci fait, vous pouvez utiliser des GUI comme gitKraken (toute plateforme), git fork (mac) ou lazygit (c'est un TUI, mais c'est pareil) qui sont très bien fait et vous permettront de gagner du temps une fois que vous aurez les bases. Si, comme moi, vous codez sous VS Code, vous pouvez également utiliser l'extension git intégrée à l'éditeur.
 
 Cependant, j'essaierais, à chaque fois que possible et fonction de la demande, de vous donner l'équivalent GUI de la commande que nous utilisons (dans un second temps).
 
@@ -50,7 +50,7 @@ Une fois fait, verifions que git est bien installé. Cela va dépendre de votre 
 
 #### Windows
 
-Ouvrez l'explorateur de fichier et faite un clique droit n'importe où (pas sur un fichier) et une option "ouvrir git bash ici" : vous avez bien installé git.
+Ouvrez l'explorateur de fichier et faite un clique droit n'importe où (pas sur un fichier) et une option "ouvrir git bash ici" sera dans la liste des options   : vous avez bien installé git.
 
 #### Mac
 
