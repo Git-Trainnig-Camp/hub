@@ -17,6 +17,8 @@ la commande `man` suivie d'une commande, affiche le manuel de cette dernière
 
 ### `sudo`
 
+sudo = Super User DO
+
 Cette commande permet d'exécuter une commande en tant que super utilisateur (admin) 
 
 ```bash
@@ -26,6 +28,8 @@ sudo <commande>
 
 #### `cd`
 
+cd = Change Directory
+
 Cette commande permet de déplacer l'invite de commande dans le répertoire spécifié.
 
 ```bash
@@ -33,6 +37,8 @@ cd <chemin/avec/ce/format>
 ```
 
 #### `ls`
+
+ls = List (Oui ya pas de moyen mnémotechnique pour celui là)
 
 cette commande permet de lister les fichiers et dossiers dans le répertoire courant OU le répertoir specifié.
 
@@ -73,19 +79,23 @@ Pour former un chemin relatif, on peut utiliser les symboles cité juste au dess
 /dossier_cible # chemin vers un dossier cible présent à la racine du disque dur
 ./dossier_cible # chemin vers un dossier cible présent dans le répertoire courant 
 ```
-la dernière commande est équivalente à `dossier_cible`
+le dernier chemin est équivalent à `dossier_cible`
 
 ### Manipulation de fichiers et dossiers
 
 #### `touch`
 
-Cette commande permet de créer un fichier vide du nom spécifié
+touch : vous "touchez" le fichier sans le modifier
+
+Cette commande permet de créer un fichier vide du nom spécifié (et s'il existe, vous mettez à jour l'horodatage du fichier, mais on s'en fout) 
 
 ```bash
 touch </chemin/vers/fichier/nom_du_fichier>
 ```
 
 #### `mkdir`
+
+mkdir = MaKe DIRectory
 
 Cette commande permet de créer un dossier du nom spécifié
 
@@ -94,6 +104,8 @@ mkdir </chemin/vers/dossier/nom_du_dossier>
 ```
 
 #### `rm`
+
+rm = ReMove
 
 Cette commande permet de supprimer un fichier ou un dossier
 
@@ -105,6 +117,8 @@ rm -r </chemin/vers/dossier/nom_du_dossier> # supprime un dossier
 
 #### `mv`
 
+mv = MoVe
+
 Cette commande permet de déplacer ou renommer un fichier ou un dossier
 
 ```bash
@@ -112,6 +126,8 @@ mv </chemin/vers/fichier/nom_du_fichier_ou_dossier> </chemin/vers/nouveau_chemin
 ```
 
 ### `cat`
+
+cat = conCATenate (lobjectif de départ de la fonction était de concatener des fichiers dans un flux de sortie...)
 
 Cette commande permet d'afficher le contenu d'un fichier
 
