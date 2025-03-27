@@ -15,6 +15,13 @@ lorsque que vous verrez `<? ?>` l'argument est optionnel
 
 la commande `man` suivie d'une commande, affiche le manuel de cette dernière 
 
+### `sudo`
+
+Cette commande permet d'exécuter une commande en tant que super utilisateur (admin) 
+
+```bash
+sudo <commande> 
+```
 ### Navigation :
 
 #### `cd`
